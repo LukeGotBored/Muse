@@ -1,5 +1,7 @@
 package ml.lukegotbored.muse;
 
+import android.widget.Spinner;
+
 import java.util.ArrayList;
 
 public class GestoreBrani {
@@ -8,7 +10,9 @@ public class GestoreBrani {
         songList = new ArrayList<Song>();
     }
 
+
     public void addBrano(String titolo){
+
         Song nb = new Song(titolo);
         songList.add(nb);
     }
